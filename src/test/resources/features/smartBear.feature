@@ -54,7 +54,7 @@ Feature:
     And user enters all payment information
       | Visa | 12333333333 | 04/23 |
     And user clicks on "Process" button
-    #And user clicks on "View all orders" menu item
+    And user clicks on "View all orders" menu item
     Then user should see their order displayed in the "List of All Orders" table
     And validate all information entered displayed correct with the order
       | | David Giuntoli | FamilyAlbum | 2 | Current Date | 123 california rd | los angeles | California | 12345 | Visa | 12333333333 | 04/23 | |
